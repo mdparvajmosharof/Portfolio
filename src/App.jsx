@@ -1,11 +1,33 @@
+import AboutMe from "./Pages/AboutMe"
+import Home from "./Pages/Home"
 import Navbar from "./Pages/Navbar"
+import Projects from "./Pages/Projects"
 
 
 function App() {
 
   return (
     <>
-        <Navbar></Navbar>
+      <Navbar></Navbar>
+
+      <div>
+        <Home></Home>
+      </div>
+
+      <div className="flex justify-center bg-gradient-to-b  from-violet-700/20 px-40 border-violet-700 border-t-2 rounded-t-3xl py-5">
+        <div>
+          <button className="btn px-5">Download</button>
+        </div>
+      </div>
+
+      <div>
+        <AboutMe></AboutMe>
+      </div>
+
+      <div>
+        <Projects></Projects>
+      </div>
+      <div className="h-[2000px]"></div>
     </>
   )
 }

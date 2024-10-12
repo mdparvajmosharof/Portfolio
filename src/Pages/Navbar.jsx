@@ -4,7 +4,12 @@ import { ThemeContext } from "../Provider/ThemeProvider";
 const Navbar = () => {
 
     const navlinks = <>
-        <li><a href="#">Home</a></li>
+        <li><a href="/">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a>pages</a></li>
+        <li><a href="#contact">Contact</a></li>
     </>
 
     const {theme, handleTheme} = useContext(ThemeContext)
@@ -12,7 +17,7 @@ const Navbar = () => {
     console.log(theme)
 
     return (
-        <div className="navbar bg-base-100">
+        <div className="navbar bg-base-100 mx-auto fixed max-w-6xl z-50">
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -45,22 +50,13 @@ const Navbar = () => {
                 </div>
                 <a className="btn btn-ghost text-xl">
                     <h1 className=" font-bold font-['Yeseva One', 'serif'] text-2xl ">
-                        <span className="text-violet-700">P</span>ar<span>V</span>aj<span>.-</span>
+                        <span className="text-violet-600 ">P</span>ar<span>V</span>aj<span>.-</span>
                     </h1>
                 </a>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
-                    <li><a>Item 1</a></li>
-                    <li>
-                        <details>
-                            <summary>Parent</summary>
-                            <ul className="p-2">
-                                <li><a>Submenu 1</a></li>
-                                <li><a>Submenu 2</a></li>
-                            </ul>
-                        </details>
-                    </li>
+                    {navlinks}
                     <li><a>Item 3</a></li>
                 </ul>
             </div>
