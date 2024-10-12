@@ -60,8 +60,8 @@ const Navbar = () => {
                     <li><a>Item 3</a></li>
                 </ul>
             </div>
-            <div className="navbar-end">
-                <div>
+            <div className="navbar-end mr-10 mt-1">
+                <div className="flex justify-center items-center">
                     <label className="swap swap-rotate">
                         {/* this hidden checkbox controls the state */}
                         <input type="checkbox"
@@ -70,7 +70,7 @@ const Navbar = () => {
 
                         {/* sun icon */}
                         <svg
-                            className="swap-off h-10 w-10 fill-current"
+                            className="swap-off h-6 w-6 fill-current"
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 24 24">
                             <path
@@ -79,7 +79,7 @@ const Navbar = () => {
 
                         {/* moon icon */}
                         <svg
-                            className="swap-on h-10 w-10 fill-current"
+                            className="swap-on h-6 w-6 fill-current"
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 24 24">
                             <path
@@ -87,7 +87,6 @@ const Navbar = () => {
                         </svg>
                     </label>
                 </div>
-                <a className="btn">Button</a>
             </div>
         </div>
     );

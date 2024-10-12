@@ -1,5 +1,8 @@
 import React from 'react'
 import pro1 from "/images/diagno-d.png"
+import pro2 from "/images/alterno.jpeg"
+import pro3 from "/images/rento.jpeg"
+import pro4 from "/images/touro.jpeg"
 
 const Projects = () => {
 
@@ -7,7 +10,7 @@ const Projects = () => {
         {
             id: 1,
             title: "Diagno",
-            img: pro1, // Dummy image URL
+            img: pro1,
             description: "This project serves as a comprehensive platform for managing diagnostic centers, enabling users to book tests, view results, and manage appointments. It features an intuitive user interface, robust backend support, and a secure database. Users can access their medical history and test results seamlessly, making healthcare management efficient and user-friendly.",
             link: "https://diagno-auth.web.app/",
             client: "https://github.com/mdparvajmosharof/Diagno",
@@ -16,7 +19,7 @@ const Projects = () => {
         {
             id: 2,
             title: "Alterno",
-            img: "https://via.placeholder.com/300", // Dummy image URL
+            img: pro2,
             description: "Alterno is a tour-related application designed to showcase featured tours and experiences. The platform allows users to explore various destinations, view details, and book tours effortlessly. With its sleek design and responsive features, Alterno aims to enhance the travel planning experience, making it enjoyable and straightforward for users.",
             link: "https://alterno-auth.web.app/",
             client: "https://github.com/mdparvajmosharof/alterno",
@@ -25,7 +28,7 @@ const Projects = () => {
         {
             id: 3,
             title: "Rento",
-            img: "https://via.placeholder.com/300", // Dummy image URL
+            img: pro3,
             description: "Rento is a rental platform that connects users with various rental services, including homes, vehicles, and equipment. It provides a user-friendly interface for searching and booking rentals. The project emphasizes secure transactions, real-time updates, and user feedback, ensuring a smooth experience for both renters and property owners.",
             link: "https://auth-rento.web.app/",
             client: "https://github.com/mdparvajmosharof/Rento"
@@ -33,7 +36,7 @@ const Projects = () => {
         {
             id: 4,
             title: "Touro",
-            img: "https://via.placeholder.com/300", // Dummy image URL
+            img: pro4,
             description: "Touro is a dynamic platform for exploring and booking various travel experiences. It focuses on providing users with detailed information about featured tours, destinations, and activities. The application enhances user engagement with visually appealing design and easy navigation, making travel planning more accessible and enjoyable.",
             link: "https://touro-f1537.web.app/",
             client: "https://github.com/mdparvajmosharof/touro"
