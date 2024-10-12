@@ -1,7 +1,9 @@
 import AboutMe from "./Pages/AboutMe"
+import ContactMe from "./Pages/ContactMe"
 import Home from "./Pages/Home"
 import Navbar from "./Pages/Navbar"
 import Projects from "./Pages/Projects"
+import Skills from "./Pages/Skills"
 
 
 function App() {
@@ -27,6 +29,15 @@ function App() {
       <div className="pt-20" id="projects">
         <Projects></Projects>
       </div>
+
+      {/* <div className="pt-20" id="projects">
+        <Skills></Skills>
+      </div> */}
+
+      <div className="pt-20" id="projects">
+        <ContactMe></ContactMe>
+      </div>
+
       <div className="h-[2000px]"></div>
     </>
   )
