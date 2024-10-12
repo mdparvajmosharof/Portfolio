@@ -20,11 +20,11 @@ function App() {
         </div>
       </div>
 
-      <div>
+      <div className="pt-20" id="about">
         <AboutMe></AboutMe>
       </div>
 
-      <div>
+      <div className="pt-20" id="projects">
         <Projects></Projects>
       </div>
       <div className="h-[2000px]"></div>

@@ -1,12 +1,13 @@
 import React from 'react'
+import pro1 from "/images/diagno-d.png"
 
 const Projects = () => {
 
     const project = [
         {
             id: 1,
-            title: "Diagnostic Center Management System",
-            img: "https://via.placeholder.com/300", // Dummy image URL
+            title: "Diagno",
+            img: pro1, // Dummy image URL
             description: "This project serves as a comprehensive platform for managing diagnostic centers, enabling users to book tests, view results, and manage appointments. It features an intuitive user interface, robust backend support, and a secure database. Users can access their medical history and test results seamlessly, making healthcare management efficient and user-friendly.",
             link: "https://diagno-auth.web.app/",
             client: "https://github.com/mdparvajmosharof/Diagno",
@@ -40,41 +41,55 @@ const Projects = () => {
     ];
 
 
-
+console.log(project[0].img)
 
     return (
-        <div className='mt-20'>
+        <div>
 
             <div className='flex items-center gap-5 '>
                 <div className='h-1 mt-2 rounded-full bg-violet-700 w-full'></div>
-                <div className='text-4xl font-bold text-right'>Projects</div>
+                <div className='text-4xl font-bold text-right font-["Yeseva One", "serif"]'>Projects</div>
+                <div className='h-1 mt-2 rounded-full bg-violet-700 w-full'></div>
             </div>
 
-            {
-                project.map((proj, inx) =>{ 
+            <div className='space-y- mx-10 mt-12'>
+                {
+                    project.map((proj, inx) => {
 
-                const isReverse = inx % 2 !== 0;
+                        const isReverse = inx % 2 !== 0;
 
-                    return (
-                    <div>
-                        <div className={`flex ${isReverse ? 'lg:flex-row-reverse' : 'lg:flex-row'}`}>
-                            <figure>
-                                <img
-                                    src="https://img.daisyui.com/images/stock/photo-1494232410401-ad00d5433cfa.webp"
-                                    alt="Album" />
-                            </figure>
-                            <div className="card-body">
-                                <h2 className="card-title">New album is released!</h2>
-                                <p>Click the button to listen on Spotiwhy app.</p>
-                                <div className="card-actions justify-end">
-                                    <button className="btn btn-primary">Listen</button>
+                        return (
+                            <div key={proj.id}>
+
+                                <div className={`flex flex-col ${isReverse ? 'lg:flex-row-reverse' : 'lg:flex-row '} items-center  font-serif`}>
+
+                                    <figure
+                                    style={{backgroundImage : `url(${proj?.img})`}} 
+                                    className={`lg:w-1/2 h-[350px] bg-cover  bg-top hover:bg-bottom transition-all ease-in-out  duration-[3s] rounded-xl`}>
+                                        {/* <img
+                                            className='w-full'
+                                            src={proj.img}
+                                            alt="Album" /> */}
+                                    </figure>
+
+                                    <div className="card-body lg:w-1/2 text-center">
+                                        <h2 className="text-2xl font-extrabold">{proj.title}</h2>
+                                        <p>{proj.description}</p>
+                                        <div className='flex justify-around mt-3'>
+                                            <a href={proj.link} target='_blank'><div className="btn">Live</div></a>
+                                            <a href={proj.client} target='_blank'><div className="btn">Github  (client)</div></a>
+                                            <a href={proj.server} target='_blank'><div className="btn"> Github (server)</div></a>
+                                            
+                                        </div>
+                                    </div>
+
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                )}
-            )
-            }
+                        )
+                    }
+                    )
+                }
+            </div>
 
         </div>
     )
