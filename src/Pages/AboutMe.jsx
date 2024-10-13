@@ -8,7 +8,7 @@ const AboutMe = () => {
                 <div className='h-1 mt-2 rounded-full bg-violet-700 w-full'></div>
             </div>
 
-            <div className='lg:ml-32  space-y-5 mr-20 mt-10 bg-violet-700/10 p-10 rounded-md border border-violet-600'>
+            <div className='lg:ml-32  space-y-5 mr-20 mt-10 bg-violet-700/10 p-10 rounded-md border border-violet-600 hvr-grow'>
                 <p>
                     I am <span className='font-bold text-violet-700'>Md. Parvaj Mosharof</span>, a passionate and motivated 
                     <span className='font-bold text-violet-700'> Junior Frontend Web Developer</span> with hands-on experience in creating engaging and responsive web applications. My expertise spans a range of technologies:

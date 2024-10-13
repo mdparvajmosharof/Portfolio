@@ -3,13 +3,30 @@ import { ThemeContext } from "../Provider/ThemeProvider";
 
 const Navbar = () => {
 
+    const navClass = ({ isActive }) =>
+        isActive
+          ? "text-md px-4 h-8 flex items-center justify-center rounded-md bg-indigo-500 text-indigo-200 "
+          : "text-md px-4 h-8 flex items-center justify-center rounded-md border border-indigo-500 text-indigo-500 hover:bg-indigo-900 hover:text-indigo-200  transition-all duration-300";
+
     const navlinks = <>
-        <li><a href="/">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#skills">Skills</a></li>
+
+        <a className={navClass} href="/">
+        <li>Home</li>
+        </a>
+
+        <li className={navClass}><a href="/">
+            <span className="text-xl hvr-icon"></span>
+         Home</a></li>
+        <li><a href="#about">
+            About</a></li>
+        <li><a href="#projects">
+            Projects</a></li>
+        <li><a href="#skills">
+            
+            Skills</a></li>
         <li><a>pages</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="#contact">
+            Contact</a></li>
     </>
 
     const {theme, handleTheme} = useContext(ThemeContext)
@@ -17,7 +34,7 @@ const Navbar = () => {
     console.log(theme)
 
     return (
-        <div className="navbar bg-base-100 mx-auto fixed max-w-6xl z-50">
+        <div className="navbar mx-auto fixed max-w-6xl z-50">
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -54,10 +71,11 @@ const Navbar = () => {
                     </h1>
                 </a>
             </div>
-            <div className="navbar-center hidden lg:flex">
-                <ul className="menu menu-horizontal px-1">
+            <div className="navbar-center hidden lg:flex relative ">
+                <ul className=" w-full menu menu-horizontal px-1 bg-black bg-opacity-10 rounded-full">
+
                     {navlinks}
-                    <li><a>Item 3</a></li>
+
                 </ul>
             </div>
             <div className="navbar-end mr-10 mt-1">

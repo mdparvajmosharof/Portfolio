@@ -35,14 +35,14 @@ const Footer = () => {
 
             {/* Personal Branding */}
             <div className="flex justify-center">
-                <p className="text-lg font-semibold text-gray-800">
+                <p className="text-lg font-semibold ">
                     Building Web Solutions for a Better Tomorrow.
                 </p>
             </div>
 
             {/* Copyright Notice */}
             <div className="flex justify-center mt-4">
-                <p className="text-sm text-gray-500">
+                <p className="text-sm ">
                     &copy; {new Date().getFullYear()} Md. Parvaj Mosharof. All Rights Reserved.
                 </p>
             </div>
