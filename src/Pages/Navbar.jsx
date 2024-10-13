@@ -3,30 +3,28 @@ import { ThemeContext } from "../Provider/ThemeProvider";
 
 const Navbar = () => {
 
-    const navClass = ({ isActive }) =>
-        isActive
-          ? "text-md px-4 h-8 flex items-center justify-center rounded-md bg-indigo-500 text-indigo-200 "
-          : "text-md px-4 h-8 flex items-center justify-center rounded-md border border-indigo-500 text-indigo-500 hover:bg-indigo-900 hover:text-indigo-200  transition-all duration-300";
+    const navClass = "hvr-underline-from-center hvr-grow hvr-icon-down btn btn-sm rounded-full border-violet-600 bg-violet-300/30 hover:bg-violet-700/30 font-bold font-serif px-5 text-violet-800 font-bold";
 
     const navlinks = <>
 
         <a className={navClass} href="/">
-        <li>Home</li>
+            <li>Home</li>
         </a>
+        <a className={navClass} href="#about">
+            <li>About</li>
+        </a>
+        <a className={navClass} href="#projects">
+            <li>Projects</li>
+        </a>
+        <a className={navClass} href="#skills">
+            <li>Skills</li>
+        </a>
+        <a className={navClass} href="#contact">
+            <li>Contact</li>
+        </a>
+        
 
-        <li className={navClass}><a href="/">
-            <span className="text-xl hvr-icon"></span>
-         Home</a></li>
-        <li><a href="#about">
-            About</a></li>
-        <li><a href="#projects">
-            Projects</a></li>
-        <li><a href="#skills">
-            
-            Skills</a></li>
-        <li><a>pages</a></li>
-        <li><a href="#contact">
-            Contact</a></li>
+        
     </>
 
     const {theme, handleTheme} = useContext(ThemeContext)
@@ -71,8 +69,8 @@ const Navbar = () => {
                     </h1>
                 </a>
             </div>
-            <div className="navbar-center hidden lg:flex relative ">
-                <ul className=" w-full menu menu-horizontal px-1 bg-black bg-opacity-10 rounded-full">
+            <div className="navbar-center hidden lg:flex ">
+                <ul className=" w-full menu menu-horizontal bg-white bg-opacity-30 backdrop-blur-sm border border-violet-700/20 shadow-lg rounded-full py-3 px-8 gap-2 ">
 
                     {navlinks}
 
