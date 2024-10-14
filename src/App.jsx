@@ -8,6 +8,8 @@ import Projects from "./Pages/Projects"
 import Skills from "./Pages/Skills"
 
 import resume from "/pdf/resume.pdf"
+import WhatIDo from "./Pages/WhatIDo"
+import Extracurricular from "./Pages/Extracurricular"
 
 
 function App() {
@@ -16,7 +18,7 @@ function App() {
     <>
       <Navbar></Navbar>
 
-      <div>
+      <div id="home">
         <Home></Home>
       </div>
 
@@ -38,6 +40,14 @@ function App() {
 
       <div className="pt-20" id="skills">
         <Skills></Skills>
+      </div>
+
+      <div className="pt-20" id="whatido">
+        <WhatIDo></WhatIDo>
+      </div>
+
+      <div className="pt-20" id="activities">
+        <Extracurricular></Extracurricular>
       </div>
 
       <div className="pt-20" id="contact">

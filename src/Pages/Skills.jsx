@@ -35,66 +35,69 @@ const Skills = () => {
 
             <div className='flex items-center gap-5 mx-10'>
                 <div className='h-1 mt-2 rounded-full bg-violet-700 w-full'></div>
-                <div className='text-4xl font-bold text-right font-["Yeseva One", "serif"]'>SKILLS</div>
+                <div className='text-4xl font-bold text-right'>SKILLS</div>
+            </div>
+            <div className='flex justify-center bg-gradient-to-b  from-violet-700/20 py-5 mt-10 px-6 border-violet-600 border-t-2 rounded-t-3xl'>
+
             </div>
 
             <div className="mx-auto max-w-5xl py-10 px-6">
                 <div className="flex justify-center flex-wrap gap-10">
                     {/* Frontend Skills */}
-                    <div className="flex justify-center flex-col items-center gap-5 bg-violet-700/10 py-8 px-6 rounded-xl border border-violet-600 w-72">
+                    <div className="flex justify-center flex-col hvr-bob items-center gap-5 bg-violet-700/10 py-8 px-6 rounded-xl border border-violet-600 w-72">
                         <div className="text-2xl font-bold">🖥️ Frontend</div>
                         <div className="flex flex-wrap gap-2 justify-center">
-                            <p className="px-4 py-1 rounded-full bg-violet-700/10 border border-violet-600">HTML5</p>
-                            <p className="px-4 py-1 rounded-full bg-violet-700/10 border border-violet-600">CSS3</p>
-                            <p className="px-4 py-1 rounded-full bg-violet-700/10 border border-violet-600">JavaScript</p>
-                            <p className="px-4 py-1 rounded-full bg-violet-700/10 border border-violet-600">React.js</p>
-                            <p className="px-4 py-1 rounded-full bg-violet-700/10 border border-violet-600">Tailwind CSS</p>
-                            <p className="px-4 py-1 rounded-full bg-violet-700/10 border border-violet-600">Next.js</p>
-                            <p className="px-4 py-1 rounded-full bg-violet-700/10 border border-violet-600">TypeScript</p>
+                            <p className="px-4 py-1 rounded-full bg-violet-700/10 border border-violet-600 hvr-pulse">HTML5</p>
+                            <p className="px-4 py-1 rounded-full bg-violet-700/10 border border-violet-600 hvr-pulse">CSS3</p>
+                            <p className="px-4 py-1 rounded-full bg-violet-700/10 border border-violet-600 hvr-pulse">JavaScript</p>
+                            <p className="px-4 py-1 rounded-full bg-violet-700/10 border border-violet-600 hvr-pulse">React.js</p>
+                            <p className="px-4 py-1 rounded-full bg-violet-700/10 border border-violet-600 hvr-pulse">Tailwind CSS</p>
+                            <p className="px-4 py-1 rounded-full bg-violet-700/10 border border-violet-600 hvr-pulse">Next.js</p>
+                            <p className="px-4 py-1 rounded-full bg-violet-700/10 border border-violet-600 hvr-pulse">TypeScript</p>
                         </div>
                     </div>
 
                     {/* Backend Skills */}
-                    <div className="flex justify-center flex-col items-center gap-5 bg-violet-700/10 py-8 px-6 rounded-xl border border-violet-600 w-72">
+                    <div className="flex justify-center flex-col hvr-bob items-center gap-5 bg-violet-700/10 py-8 px-6 rounded-xl border border-violet-600 w-72">
                         <div className="text-2xl font-bold">🛠️ Backend</div>
                         <div className="flex flex-wrap gap-2 justify-center">
-                            <p className="px-4 py-1 rounded-full bg-violet-700/10 border border-violet-600">Node.js</p>
-                            <p className="px-4 py-1 rounded-full bg-violet-700/10 border border-violet-600">Express.js</p>
-                            <p className="px-4 py-1 rounded-full bg-violet-700/10 border border-violet-600">Rest APIs</p>
-                            <p className="px-4 py-1 rounded-full bg-violet-700/10 border border-violet-600">security</p>
-                            <p className="px-4 py-1 rounded-full bg-violet-700/10 border border-violet-600">JWT Authentication</p>
+                            <p className="px-4 py-1 rounded-full bg-violet-700/10 border border-violet-600 hvr-pulse">Node.js</p>
+                            <p className="px-4 py-1 rounded-full bg-violet-700/10 border border-violet-600 hvr-pulse">Express.js</p>
+                            <p className="px-4 py-1 rounded-full bg-violet-700/10 border border-violet-600 hvr-pulse">Rest APIs</p>
+                            <p className="px-4 py-1 rounded-full bg-violet-700/10 border border-violet-600 hvr-pulse">security</p>
+                            <p className="px-4 py-1 rounded-full bg-violet-700/10 border border-violet-600 hvr-pulse">JWT Authentication</p>
                         </div>
                     </div>
 
                     {/* Database Skills */}
-                    <div className="flex justify-center flex-col items-center gap-5 bg-violet-700/10 py-8 px-6 rounded-xl border border-violet-600 w-72">
+                    <div className="flex justify-center flex-col hvr-bob items-center gap-5 bg-violet-700/10 py-8 px-6 rounded-xl border border-violet-600 w-72">
                         <div className="text-2xl font-bold">🗃️ Database</div>
                         <div className="flex flex-wrap gap-2 justify-center">
-                            <p className="px-4 py-1 rounded-full bg-violet-700/10 border border-violet-600">MongoDB</p>
-                            <p className="px-4 py-1 rounded-full bg-violet-700/10 border border-violet-600">NoSQL</p>
-                            <p className="px-4 py-1 rounded-full bg-violet-700/10 border border-violet-600">Db Conections</p>
-                            <p className="px-4 py-1 rounded-full bg-violet-700/10 border border-violet-600">Crud Oparations</p>
+                            <p className="px-4 py-1 rounded-full bg-violet-700/10 border border-violet-600 hvr-pulse">MongoDB</p>
+                            <p className="px-4 py-1 rounded-full bg-violet-700/10 border border-violet-600 hvr-pulse">NoSQL</p>
+                            <p className="px-4 py-1 rounded-full bg-violet-700/10 border border-violet-600 hvr-pulse">Db Conections</p>
+                            <p className="px-4 py-1 rounded-full bg-violet-700/10 border border-violet-600 hvr-pulse">Crud Oparations</p>
                         </div>
                     </div>
 
                     {/* Tools */}
-                    <div className="flex justify-center flex-col items-center gap-5 bg-violet-700/10 py-8 px-6 rounded-xl border border-violet-600 w-72">
+                    <div className="flex justify-center flex-col hvr-bob items-center gap-5 bg-violet-700/10 py-8 px-6 rounded-xl border border-violet-600 w-72">
                         <div className="text-2xl font-bold">⚙️ Tools</div>
                         <div className="flex flex-wrap gap-2 justify-center">
-                            <p className="px-4 py-1 rounded-full bg-violet-700/10 border border-violet-600">Git & GitHub</p>
-                            <p className="px-4 py-1 rounded-full bg-violet-700/10 border border-violet-600">VSCode</p>
-                            <p className="px-4 py-1 rounded-full bg-violet-700/10 border border-violet-600">Postman</p>
-                            <p className="px-4 py-1 rounded-full bg-violet-700/10 border border-violet-600">Figma</p>
+                            <p className="px-4 py-1 rounded-full bg-violet-700/10 border border-violet-600 hvr-pulse">Git & GitHub</p>
+                            <p className="px-4 py-1 rounded-full bg-violet-700/10 border border-violet-600 hvr-pulse">VSCode</p>
+                            <p className="px-4 py-1 rounded-full bg-violet-700/10 border border-violet-600 hvr-pulse">Postman</p>
+                            <p className="px-4 py-1 rounded-full bg-violet-700/10 border border-violet-600 hvr-pulse">Figma</p>
                         </div>
                     </div>
 
                     {/* Familiar Technologies Section */}
-                    <div className="flex justify-center flex-col items-center gap-5 bg-violet-700/10 py-8 px-6 rounded-xl border border-violet-600 w-72">
+                    <div className="flex justify-center flex-col hvr-bob items-center gap-5 bg-violet-700/10 py-8 px-6 rounded-xl border border-violet-600 w-72">
                         <div className="text-2xl font-bold text-center">🌟 Familiar Technologies</div>
                         <div className="flex flex-wrap gap-2 justify-center">
-                            <p className="px-4 py-1 rounded-full bg-violet-700/10 border border-violet-600">Familiar with</p>
-                            <p className="px-4 py-1 rounded-full bg-violet-700/10 border border-violet-600">Next.js</p>
-                            <p className="px-4 py-1 rounded-full bg-violet-700/10 border border-violet-600">TypeScript</p>
+                            <p className="px-4 py-1 rounded-full bg-violet-700/10 border border-violet-600 hvr-pulse">Familiar with</p>
+                            <p className="px-4 py-1 rounded-full bg-violet-700/10 border border-violet-600 hvr-pulse">Next.js</p>
+                            <p className="px-4 py-1 rounded-full bg-violet-700/10 border border-violet-600 hvr-pulse">TypeScript</p>
                         </div>
                     </div>
                 </div>
