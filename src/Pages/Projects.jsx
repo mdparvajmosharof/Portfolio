@@ -55,7 +55,7 @@ console.log(project[0].img)
                 <div className='h-1 mt-2 rounded-full bg-violet-700 w-full'></div>
             </div>
 
-            <div className='space-y-10 mx-10 mt-20'>
+            <div className='space-y-10 lg:mx-10 mt-10 lg:mt-20'>
                 {
                     project.map((proj, inx) => {
 
@@ -75,13 +75,13 @@ console.log(project[0].img)
                                             alt="Album" /> */}
                                     </figure>
 
-                                    <div className="card-body lg:w-1/2 text-center hvr-grow bg-violet-700/5 border border-dashed border-violet-500 rounded-md">
+                                    <div className="card-body lg:w-1/2 lg:mx-0 text-center hvr-grow bg-violet-700/5 border border-dashed border-violet-500 rounded-md mx-10 w-full">
                                         <h2 className="text-2xl font-extrabold">{proj.title}</h2>
                                         <p className='text-sm text-pretty'>{proj.description}</p>
-                                        <div className='flex justify-around mt-3 gap-3'>
-                                            <a href={proj.link} target='_blank'><div className="hvr-underline-from-center hvr-grow hvr-icon-down btn rounded-xl bg-violet-700/10 border-violet-600 hover:bg-violet-700/30 font-bold font-serif px-10">Live</div></a>
-                                            <a href={proj.client} target='_blank'><div className="hvr-underline-from-center hvr-grow hvr-icon-down btn rounded-xl bg-violet-700/10 border-violet-600 hover:bg-violet-700/30 font-bold font-serif px-10">Github  (client)</div></a>
-                                            <a href={proj.server} target='_blank'><div className="hvr-underline-from-center hvr-grow hvr-icon-down btn rounded-xl bg-violet-700/10 border-violet-600 hover:bg-violet-700/30 font-bold font-serif px-10"> Github (server)</div></a>
+                                        <div className='flex flex-wrap justify-center mt-3 gap-3'>
+                                            <a href={proj.link} target='_blank'><div className="hvr-underline-from-center hvr-grow hvr-icon-down btn btn-sm rounded-xl bg-violet-700/10 border-violet-600 hover:bg-violet-700/30 font-bold font-serif px-10">Live</div></a>
+                                            <a href={proj.client} target='_blank'><div className="hvr-underline-from-center hvr-grow hvr-icon-down btn btn-sm rounded-xl bg-violet-700/10 border-violet-600 hover:bg-violet-700/30 font-bold font-serif px-5 text-nowrap">Github  (client)</div></a>
+                                           { proj?.server && <a href={proj.server} target='_blank'><div className="hvr-underline-from-center hvr-grow hvr-icon-down btn btn-sm rounded-xl bg-violet-700/10 border-violet-600 hover:bg-violet-700/30 font-bold font-serif px-5 text-nowrap"> Github (server)</div></a>}
                                             
                                         </div>
                                     </div>

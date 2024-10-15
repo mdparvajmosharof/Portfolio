@@ -22,12 +22,12 @@ const Extracurricular = () => {
     return (
         <div className='font-serif'>
             <div className='flex justify-center bg-gradient-to-b  from-violet-700/20 py-14 px-6 border-violet-600 border-t-2 rounded-t-3xl'>
-                <div className='text-4xl font-bold text-nowrap'>EXTRACURRICULAR ACTIVITIES</div>
+                <div className='lg:text-4xl text-lg font-bold text-nowrap'>EXTRACURRICULAR ACTIVITIES</div>
             </div>
 
             {/* Medium Description */}
             <div className="mx-auto max-w-5xl py-6 px-6 text-center">
-                <p className="text-lg text-gray-700">
+                <p className="text-lg text-gray-700 mx-8">
                     Engaging in extracurricular activities has been a crucial part of my personal and professional development. 
                     Leading teams and participating in contests has not only enhanced my technical skills but also fostered teamwork and leadership qualities.
                 </p>

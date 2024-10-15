@@ -33,7 +33,7 @@ const Skills = () => {
     return (
         <div className='font-serif'>
 
-            <div className='flex items-center gap-5 mx-10'>
+            <div className='flex items-center gap-5 lg:mx-10 '>
                 <div className='h-1 mt-2 rounded-full bg-violet-700 w-full'></div>
                 <div className='text-4xl font-bold text-right'>SKILLS</div>
             </div>
