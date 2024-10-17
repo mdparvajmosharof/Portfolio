@@ -68,7 +68,7 @@ console.log(project[0].img)
 
                                     <figure
                                     style={{backgroundImage : `url(${proj?.img})`}} 
-                                    className={`lg:w-1/2 w-full h-[300px] bg-cover  bg-top hover:bg-bottom transition-all ease-in-out  duration-[4s] rounded-xl hvr-grow`}>
+                                    className={`lg:w-1/2 w-full h-[300px] bg-cover  bg-top hover:bg-bottom transition-all ease-in-out  duration-[4s] rounded-xl hvr-grow border border-violet-600`}>
                                         {/* <img
                                             className='w-full'
                                             src={proj.img}
