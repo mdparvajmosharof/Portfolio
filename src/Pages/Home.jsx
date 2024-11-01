@@ -21,7 +21,7 @@ const Home = () => {
   return (
     <div className="relative max-h-screen h-screen overflow-hidden">
 
-      <div className='absolute bottom-3 rellax' data-rellax-speed="-20">
+      <div className='absolute -bottom-20 -left-20 rellax' data-rellax-speed="-10">
         <img src={graph1} alt="" />
       </div>
 

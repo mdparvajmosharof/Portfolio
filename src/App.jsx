@@ -9,6 +9,9 @@ import Skills from "./Pages/Skills"
 
 import graph1 from '/images/graph.png';
 import graph3 from '/images/graph3.png';
+import graph4 from '/images/graph4.png';
+import graph5 from '/images/graph5.png';
+import graph6 from '/images/graph6.png';
 import resume from "/pdf/resume.pdf"
 import WhatIDo from "./Pages/WhatIDo"
 import Extracurricular from "./Pages/Extracurricular"
@@ -59,6 +62,8 @@ function App() {
       <div className="pt-20 mx-5 lg:mx-0" id="about">
         <AboutMe></AboutMe>
       </div>
+
+      
 
       <div className="pt-20 mx-5 lg:mx-0" id="projects">
         <Projects></Projects>
