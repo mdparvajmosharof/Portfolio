@@ -52,10 +52,10 @@ function App() {
 
       
       <div className='absolute top-3 rellax right-36' data-rellax-speed="-5" data-rellax-zindex="5">
-        <img className="w-36" src={graph1} alt="" />
+        <img className="w-36 opacity-30" src={graph1} alt="" />
       </div>
-      <div className='absolute top-3 rellax right-36 opacity-70' data-rellax-speed="-10" data-rellax-zindex="20">
-        <img className="" src={graph3} alt="" />
+      <div className='absolute top-3 rellax right-36' data-rellax-speed="-7" data-rellax-zindex="20">
+        <img className="opacity-25" src={graph3} alt="" />
       </div>
 
 

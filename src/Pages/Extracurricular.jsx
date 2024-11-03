@@ -1,4 +1,5 @@
 import React from 'react';
+import graph5 from '/images/graph5.png';
 
 const Extracurricular = () => {
     const activities = [
@@ -20,9 +21,13 @@ const Extracurricular = () => {
     ];
 
     return (
-        <div className='font-serif'>
+        <div className='font-serif relative'>
             <div className='flex justify-center bg-gradient-to-b  from-violet-700/20 py-14 px-6 border-violet-600 border-t-2 rounded-t-3xl'>
                 <div className='lg:text-4xl text-lg font-bold text-nowrap'>EXTRACURRICULAR ACTIVITIES</div>
+            </div>
+
+            <div className='absolute rellax right-1/2 bottom-0' data-rellax-speed="3" data-rellax-zindex="-5">
+                <img className="w-64 opacity-35" src={graph5} alt="" />
             </div>
 
             {/* Medium Description */}

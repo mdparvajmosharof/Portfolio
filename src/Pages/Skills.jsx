@@ -2,6 +2,8 @@ import React from 'react'
 import Slider from 'react-slick/lib/slider';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import graph6 from '/images/graph6.png';
+
 
 const Skills = () => {
 
@@ -31,14 +33,18 @@ const Skills = () => {
     }
 
     return (
-        <div className='font-serif'>
+        <div className='font-serif relative'>
 
-            <div className='flex items-center gap-5 lg:mx-10 '>
+            <div className='flex items-center gap-5 lg:mx-10'>
                 <div className='h-1 mt-2 rounded-full bg-violet-700 w-full'></div>
                 <div className='text-4xl font-bold text-right'>SKILLS</div>
             </div>
             <div className='flex justify-center bg-gradient-to-b  from-violet-700/20 py-5 mt-10 px-6 border-violet-600 border-t-2 rounded-t-3xl'>
 
+            </div>
+
+            <div className='absolute rellax left-1/2 -bottom-8 opacity-45' data-rellax-speed="1" data-rellax-zindex="5">
+                <img className="w-96" src={graph6} alt="" />
             </div>
 
             <div className="mx-auto max-w-5xl py-10 px-6">

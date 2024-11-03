@@ -1,5 +1,6 @@
 import React from 'react';
 import graph4 from '/images/graph4.png';
+import graph5 from '/images/graph5.png';
 
 const AboutMe = () => {
     return (
@@ -9,8 +10,11 @@ const AboutMe = () => {
                 <div className='h-1 mt-2 rounded-full bg-violet-700 w-full'></div>
             </div>
 
-            <div className='absolute rellax right-1/2 bottom-28' data-rellax-speed="-25 " data-rellax-zindex="5">
-                <img className="w-64" src={graph4} alt="" />
+            <div className='absolute rellax right-1/2 bottom-28' data-rellax-speed="-5" data-rellax-zindex="5">
+                <img className="w-96 opacity-50" src={graph4} alt="" />
+            </div>
+            <div className='absolute rellax left-2/3 -top-8' data-rellax-speed="-3" data-rellax-zindex="5">
+                <img className="w-64 opacity-40" src={graph5} alt="" />
             </div>
 
             <div className='lg:ml-32 ml-10 space-y-5 lg:mr-20 mt-10 bg-violet-700/10 lg:p-10 p-3 rounded-md border border-violet-600 hvr-grow'>

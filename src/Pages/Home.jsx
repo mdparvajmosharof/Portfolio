@@ -21,8 +21,8 @@ const Home = () => {
   return (
     <div className="relative max-h-screen h-screen overflow-hidden">
 
-      <div className='absolute -bottom-20 -left-20 rellax' data-rellax-speed="-10">
-        <img src={graph1} alt="" />
+      <div className='absolute -bottom-20 -left-20 opacity-50 rellax' data-rellax-speed="-10">
+        <img  src={graph1} alt="" />
       </div>
 
       {/* Section for text and title */}
