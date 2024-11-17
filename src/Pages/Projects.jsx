@@ -3,6 +3,8 @@ import pro1 from "/images/diagno-d.png"
 import pro2 from "/images/alterno.jpeg"
 import pro3 from "/images/rento.jpeg"
 import pro4 from "/images/touro.jpeg"
+import { FaExternalLinkAlt } from 'react-icons/fa'
+import { FiGithub } from 'react-icons/fi'
 
 const Projects = () => {
 
@@ -79,9 +81,9 @@ console.log(project[0].img)
                                         <h2 className="text-2xl font-extrabold">{proj.title}</h2>
                                         <p className='text-sm text-pretty'>{proj.description}</p>
                                         <div className='flex flex-wrap justify-center mt-3 gap-3'>
-                                            <a href={proj.link} target='_blank'><div className="hvr-underline-from-center hvr-grow hvr-icon-down btn btn-sm rounded-xl bg-violet-700/10 border-violet-600 hover:bg-violet-700/30 font-bold font-serif px-10">Live</div></a>
-                                            <a href={proj.client} target='_blank'><div className="hvr-underline-from-center hvr-grow hvr-icon-down btn btn-sm rounded-xl bg-violet-700/10 border-violet-600 hover:bg-violet-700/30 font-bold font-serif px-5 text-nowrap">Github  (client)</div></a>
-                                           { proj?.server && <a href={proj.server} target='_blank'><div className="hvr-underline-from-center hvr-grow hvr-icon-down btn btn-sm rounded-xl bg-violet-700/10 border-violet-600 hover:bg-violet-700/30 font-bold font-serif px-5 text-nowrap"> Github (server)</div></a>}
+                                            <a href={proj.link} target='_blank'><div className="hvr-underline-from-center hvr-grow hvr-icon-down btn btn-sm rounded-xl bg-violet-700/10 border-violet-600 hover:bg-violet-700/30 font-bold font-serif px-10">Live <FaExternalLinkAlt /></div></a>
+                                            <a href={proj.client} target='_blank'><div className="hvr-underline-from-center hvr-grow hvr-icon-down btn btn-sm rounded-xl bg-violet-700/10 border-violet-600 hover:bg-violet-700/30 font-bold font-serif px-5 text-nowrap">Github  (client)<FiGithub /></div></a>
+                                           { proj?.server && <a href={proj.server} target='_blank'><div className="hvr-underline-from-center hvr-grow hvr-icon-down btn btn-sm rounded-xl bg-violet-700/10 border-violet-600 hover:bg-violet-700/30 font-bold font-serif px-5 text-nowrap"> Github (server)<FiGithub /></div></a>}
                                             
                                         </div>
                                     </div>
