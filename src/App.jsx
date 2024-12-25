@@ -38,7 +38,7 @@ function App() {
 
   return (
     <>
-      {/* <motion.div
+    <motion.div
         className="progress-bar fixed top-0 right-0 left-0 h-1 bg-fuchsia-600 origin-left rounded-r-full z-10"
         style={{ scaleX: scrollYProgress }}
       />
@@ -46,7 +46,7 @@ function App() {
       <motion.div
         className="progress-bar fixed bottom-0 right-0 left-0 h-1.5 z-10 bg-fuchsia-600 origin-right rounded-l-full"
         style={{ scaleX: scrollYProgress }}
-      /> */}
+      /> 
       <Navbar></Navbar>
 
       <div id="home">
