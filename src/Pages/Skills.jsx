@@ -56,9 +56,9 @@ const Skills = () => {
 
             </div>
 
-            <div className='absolute rellax left-1/2 -bottom-8 opacity-45' data-rellax-speed="1" data-rellax-zindex="5">
+            {/* <div className='absolute rellax left-1/2 -bottom-8 opacity-45' data-rellax-speed="1" data-rellax-zindex="5">
                 <img className="w-96" src={graph6} alt="" />
-            </div>
+            </div> */}
 
             <div className="mx-auto max-w-5xl py-10 px-6">
                 <div className="flex justify-center flex-wrap gap-10">

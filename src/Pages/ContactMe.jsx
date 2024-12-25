@@ -10,13 +10,13 @@ const ContactMe = () => {
                 <p className='py-5 text-3xl font-bold'>Contact Me</p>   
             </div>
 
-            <div className='absolute rellax left-2/3 -bottom-8' data-rellax-speed="4" data-rellax-zindex="-5">
+            {/* <div className='absolute rellax left-2/3 -bottom-8' data-rellax-speed="4" data-rellax-zindex="-5">
                 <img className="w-64 opacity-50" src={graph} alt="" />
             </div>
 
             <div className='absolute rellax left-2/3 -bottom-8' data-rellax-speed="2" data-rellax-zindex="-5">
                 <img className="w-64 opacity-50" src={graph} alt="" />
-            </div>
+            </div> */}
 
             <div className="flex flex-col lg:flex-row gap-5 items-center mt-5">
 

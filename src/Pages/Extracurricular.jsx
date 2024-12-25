@@ -26,9 +26,9 @@ const Extracurricular = () => {
                 <div className='lg:text-4xl text-lg font-bold text-nowrap'>EXTRACURRICULAR ACTIVITIES</div>
             </div>
 
-            <div className='absolute rellax right-1/2 bottom-0' data-rellax-speed="3" data-rellax-zindex="-5">
+            {/* <div className='absolute rellax right-1/2 bottom-0' data-rellax-speed="3" data-rellax-zindex="-5">
                 <img className="w-64 opacity-35" src={graph5} alt="" />
-            </div>
+            </div> */}
 
             {/* Medium Description */}
             <div className="mx-auto max-w-5xl py-6 px-6 text-center">
