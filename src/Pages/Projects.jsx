@@ -15,8 +15,8 @@ const Projects = () => {
             img: pro1,
             description: "This project serves as a comprehensive platform for managing diagnostic centers, enabling users to book tests, view results, and manage appointments. It features an intuitive user interface, robust backend support, and a secure database. Users can access their medical history and test results seamlessly, making healthcare management efficient and user-friendly.",
             link: "https://diagno-auth.web.app/",
-            client: "https://github.com/mdparvajmosharof/Diagno",
-            server: "https://github.com/mdparvajmosharof/diagno-server"
+            client: "https://github.com/parvajio/Diagno",
+            server: "https://github.com/parvajio/diagno-server"
         },
         {
             id: 2,
@@ -24,8 +24,8 @@ const Projects = () => {
             img: pro2,
             description: "Alterno is a tour-related application designed to showcase featured tours and experiences. The platform allows users to explore various destinations, view details, and book tours effortlessly. With its sleek design and responsive features, Alterno aims to enhance the travel planning experience, making it enjoyable and straightforward for users.",
             link: "https://alterno-auth.web.app/",
-            client: "https://github.com/mdparvajmosharof/alterno",
-            server: "https://github.com/mdparvajmosharof/alterno-server"
+            client: "https://github.com/parvajio/alterno",
+            server: "https://github.com/parvajio/alterno-server"
         },
         {
             id: 3,
@@ -33,7 +33,7 @@ const Projects = () => {
             img: pro3,
             description: "Rento is a rental platform that connects users with various rental services, including homes, vehicles, and equipment. It provides a user-friendly interface for searching and booking rentals. The project emphasizes secure transactions, real-time updates, and user feedback, ensuring a smooth experience for both renters and property owners.",
             link: "https://auth-rento.web.app/",
-            client: "https://github.com/mdparvajmosharof/Rento"
+            client: "https://github.com/parvajio/Rento"
         },
         {
             id: 4,
@@ -41,7 +41,7 @@ const Projects = () => {
             img: pro4,
             description: "Touro is a dynamic platform for exploring and booking various travel experiences. It focuses on providing users with detailed information about featured tours, destinations, and activities. The application enhances user engagement with visually appealing design and easy navigation, making travel planning more accessible and enjoyable.",
             link: "https://touro-f1537.web.app/",
-            client: "https://github.com/mdparvajmosharof/touro"
+            client: "https://github.com/parvajio/touro"
         }
     ];
 
